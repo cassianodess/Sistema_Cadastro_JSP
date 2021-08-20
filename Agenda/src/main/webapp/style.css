@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap')
+	;
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	background-color: #565656;
+}
+
+h1 {
+	color: #66bbff;
+}
+
+.botao1 {
+	text-align: center; text-decoration : none;
+	background-color: #66bbff;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	border: 0;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.botao2 {
+	text-decoration: none;
+	background-color: #d51213;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.caixa1 {
+	width: 320px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #66bbff;
+	border-radius: 5px;
+}
+
+.caixa2 {
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #66bbff;
+	border-radius: 5px;
+}
+
+.caixa3 {
+	width: 150px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #ff0000;
+}
+
+.tabela {
+	margin-top: 30px;
+	border-collapse: collapse;
+}
+
+.tabela th {
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: left;
+	background: #66bbff;
+	color: #fff;
+}
+
+.tabela td {
+	border: 1px solid #ddd;
+	padding: 10px;
+	background-color: white;
+}
+
+.container {
+	display: block;
+	width: 100%;
+	height: 400px;
+}
+
+.container1 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
