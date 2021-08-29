@@ -1,5 +1,5 @@
 # Cadastro
- Projeto para treinar JavaEE  ( MySQL, Servlets, JSP)
+ Projeto para treinar JavaEE  ( MySQL, Servlets, JSP).
  
  # Primeira Página
  
